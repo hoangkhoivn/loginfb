@@ -30,7 +30,7 @@ app.use(passport.session());
 passport.use(new FacebookStrategy({
   clientID: "978152080297431",
   clientSecret: "18534126a6bc2dd06d41bfe4065703e1",
-  callbackURL: 'https://hoangkhoipcblogin.onrender.com/auth/google/callback',
+  callbackURL: 'https://hoangkhoilogin.onrender.com/auth/google/callback',
   profileFields: ['id', 'displayName', 'photos', 'email']
 },
 function(accessToken, refreshToken, profile, done) {
